@@ -405,13 +405,13 @@ obs_temp_out, ts_temp_out, Loss_NODE_out = conduct_experiment(
 
 ## Trained Neural ODE Data Save
 PATH = "./NODE_Ex2_Case2_model.pt"
-torch.save(ode_trained.state_dict(), PATH)
-torch.save(ode_trained.state_dict(), PATH)
-state_dict = ode_trained.state_dict()
-param_dict = {}
-for key, val in state_dict.items():
+# torch.save(ode_trained.state_dict(), PATH)
+# torch.save(ode_trained.state_dict(), PATH)
+# state_dict = ode_trained.state_dict()
+# param_dict = {}
+# for key, val in state_dict.items():
     param_dict[key] = val.cpu().numpy()
-sio.savemat("trained_params.mat", param_dict)
+# sio.savemat("trained_params.mat", param_dict)
 
 #################################################
 # 5) Load & Prediction using Neural ODE
