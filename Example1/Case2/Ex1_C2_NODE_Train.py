@@ -419,11 +419,16 @@ Nd = 50
 PATH = "./NODE_Ex1_Case2_model.pt"
 # torch.save(ode_trained.state_dict(), PATH)
 # state_dict = ode_trained.state_dict()
-# param_dict = {}
-# for key, val in state_dict.items():
-#     param_dict[key] = val.cpu().numpy()
-# sio.savemat("trained_params.mat", param_dict)
+# data_dict = {
+#     "W1": state_dict["func.net.0.weight"].cpu().numpy(),
+#     "B1": state_dict["func.net.0.bias"].cpu().numpy(),
+#     "W2": state_dict["func.net.2.weight"].cpu().numpy(),
+#     "B2": state_dict["func.net.2.bias"].cpu().numpy(),
+#     "W3": state_dict["func.net.4.weight"].cpu().numpy(),
+#     "B3": state_dict["func.net.4.bias"].cpu().numpy(),
+# }
 
+# sio.savemat("NODE_Weight.mat", data_dict)
 
 #################################################
 # 5) Load & Prediction using Neural ODE
