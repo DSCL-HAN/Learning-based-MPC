@@ -6,7 +6,7 @@ import torch
 from torch import nn
 from torch.nn import functional as F
 import torch.version
-from NODE_benchmark import*
+from NODE_helper import*
 import scipy.io
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
