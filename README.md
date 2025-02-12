@@ -27,8 +27,8 @@ The proposed **LMPC** is a framework for sampled-data control systems with parti
 ## Required Packages
 - Python 3.8+
 - MATLAB R2024b+
-- CasADi 3.6.7 (https://web.casadi.org/get/)
-- MPT 3.0 (https://people.ee.ethz.ch/~mpt/2/downloads/)
+  - CasADi 3.6.7 (https://web.casadi.org/get/)
+  - MPT 3.0 (https://people.ee.ethz.ch/~mpt/2/downloads/)
 
 ## Installation
 Clone the repository:
