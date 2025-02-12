@@ -106,8 +106,7 @@ bash
 
 python src/train.py task=mp-custom
 ```
-
-     - After training, run ```Performance_test_custom_env.py``` to evaluate the agent’s performance.
+   - After training, run ```Performance_test_custom_env.py``` to evaluate the agent’s performance.
    - **Comparison_Results** folder:
      - Run main.m to compare the proposed LMPC with TDMPC.
 
