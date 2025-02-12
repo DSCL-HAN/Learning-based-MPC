@@ -73,7 +73,8 @@ This example addresses a tracking control problem for a wheeled mobile robot wit
 - **NODE_Train** folder: Run ```Ex1_Case1_NODE_Train.py``` (Python) to train the NODE.
 - **NODE_LMPC_Run** folder: Run ```main.m``` (MATLAB) to execute the LMPC with the trained NODE.
 
-**3.5 Case 2** (The procedure is identical to Case 1)
+**3.5 Case 2**
+- The procedure is identical to Case 1.
 
 ## Example 2: Manipulator Robot
 This example handles a manipulator robot with external torque, again considering two time-varying parameter trajectories.
@@ -97,7 +98,7 @@ After training, run ```Performance_test_custom_env.py``` to evaluate the agent�
 - **Comparison_Results** folder: Run main.m to compare the proposed LMPC with TDMPC.
 
 ## 4. References
-[1] U. Rosolia and F. Borrelli, "Learning Model Predictive Control for Iterative Tasks. A Data-Driven Control Framework," in IEEE Transactions on Automatic Control, vol. 63, no. 7, pp. 1883-1896, July 2018, doi: 10.1109/TAC.2017.2753460.
+[1] U. Rosolia and F. Borrelli, "Learning Model Predictive Control for Iterative Tasks. A Data-Driven Control Framework," in IEEE Transactions on Automatic Control, vol. 63, no. 7, pp. 1883-1896, July 2018, [doi: 10.1109/TAC.2017.2753460](https://ieeexplore.ieee.org/abstract/document/8039204).
 
 [2] N. Hansen, H. Su, and X. Wang, “Temporal difference learning for model predictive control,” in ICML, 2022, doi: https://arxiv.org/abs/2203.04955.
 
