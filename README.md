@@ -28,8 +28,8 @@ whose dynamics is unknown. To learn the unknown dynamics, a neural network (NN) 
 ## Required Packages
 - Python 3.8+
 - MATLAB R2024b+
- - CasADi 3.6.7 (https://web.casadi.org/get/)
- - MPT 3.0 (https://people.ee.ethz.ch/~mpt/2/downloads/)
+- CasADi 3.6.7 (https://web.casadi.org/get/)
+- MPT 3.0 (https://people.ee.ethz.ch/~mpt/2/downloads/)
 
 ## Installation
 Clone the repository:
@@ -51,10 +51,10 @@ pip install -r requirements.txt
 Open MATLAB and navigate to the relevant folder (e.g., NODE_LMPC_Run, IterativeLMPC_Run, etc.)
 Run main.m from the MATLAB command window or script editor.
 
-## 3. Instructions
+# 3. Instructions
 Below is a step-by-step guide to each folder and how to run the corresponding scripts.
 
-# Benchmark
+## Benchmark
 - **Goal**: Compare the training performance of a Recurrent Neural Network (RNN) and a NODE using a spiral trajectory benchmark.
 
 - **Command**:
@@ -64,21 +64,21 @@ bash
 python Benchmark/RNN_NODE_Train&Prediction.py
 ```
 - **Description**:
-  -- Trains both RNN and NODE on a spiral trajectory dataset.
- 2) Compares the prediction performance (e.g., trajectory tracking, loss, etc.)
+   - Trains both RNN and NODE on a spiral trajectory dataset.
+   - Compares the prediction performance (e.g., trajectory tracking, loss, etc.)
 
-# Example 1: Tracking Control Problem for Wheeled Mobile Robots
+## Example 1: Tracking Control Problem for Wheeled Mobile Robots
 This example addresses a tracking control problem for a wheeled mobile robot with two types of time-varying parameters.
 
 - **Case 1**:
-1) **NODE_Train** folder:
-   - Run Ex1_Case1_NODE_Train.py (Python) to train the NODE.
-2) **NODE_LMPC_Run** folder:
-   - Run main.m (MATLAB) to execute the LMPC with the trained NODE.
+   - **NODE_Train** folder:
+     - Run Ex1_Case1_NODE_Train.py (Python) to train the NODE.
+   - **NODE_LMPC_Run** folder:
+     - Run main.m (MATLAB) to execute the LMPC with the trained NODE.
 
 - **Case 2** (The procedure is identical to Case 1):
 1) Ex1_Case2_NODE_Train.py (train NODE in Python)
-2) main.m (MATLAB LMPC run)
+2) ```main.m``` (MATLAB LMPC run)
 
 # Example 2: Manipulator Robot
 This example handles a manipulator robot with external torque, again considering two time-varying parameter trajectories.
