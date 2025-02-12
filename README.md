@@ -8,7 +8,7 @@ Original PyTorch implementation of **Learning-based MPC (LMPC)** by [Seungyong H
 
 
 <!--<p align="center">
-  <br><img src='media/03.\Ex1_Case1_Leader_Follower_Trajectory.jpg' width="600"/><br>
+  <br><img src='media/03_Ex1_Case1_Leader_Follower_Trajectory.jpg' width="600"/><br>
 </p> -->
 
 
