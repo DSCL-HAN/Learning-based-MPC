@@ -31,7 +31,7 @@ whose dynamics is unknown. To learn the unknown dynamics, a neural network (NN) 
  - CasADi 3.6.7 (https://web.casadi.org/get/)
  - MPT 3.0 (https://people.ee.ethz.ch/~mpt/2/downloads/)
 
-# Installation
+## Installation
 Clone the repository:
 ```
 bash
@@ -39,7 +39,7 @@ bash
 git clone https://github.com/seungyong-han/Learning-based-MPC.git
 ```
 
-# Install Python dependencies (e.g., via pip):
+## Install Python dependencies (e.g., via pip):
 ```
 bash
 
@@ -47,7 +47,7 @@ cd Learning-based-MPC
 pip install -r requirements.txt
 ```
 
-# MATLAB:
+## MATLAB:
 Open MATLAB and navigate to the relevant folder (e.g., NODE_LMPC_Run, IterativeLMPC_Run, etc.)
 Run main.m from the MATLAB command window or script editor.
 
@@ -64,7 +64,7 @@ bash
 python Benchmark/RNN_NODE_Train&Prediction.py
 ```
 - **Description**:
- 1) Trains both RNN and NODE on a spiral trajectory dataset.
+  -- Trains both RNN and NODE on a spiral trajectory dataset.
  2) Compares the prediction performance (e.g., trajectory tracking, loss, etc.)
 
 # Example 1: Tracking Control Problem for Wheeled Mobile Robots
