@@ -62,22 +62,20 @@ bash
 
 python Benchmark/RNN_NODE_Train&Prediction.py
 ```
-- **Description**:
-   - Trains both RNN and NODE on a spiral trajectory dataset.
-   - Compares the prediction performance (e.g., trajectory tracking, loss, etc.)
+**3.3 Description**:
+- Trains both RNN and NODE on a spiral trajectory dataset.
+- Compares the prediction performance (e.g., trajectory tracking, loss, etc.)
 
 ## Example 1: Tracking Control Problem for Wheeled Mobile Robots
 This example addresses a tracking control problem for a wheeled mobile robot with two types of time-varying parameters.
 
-- **Case 1**:
-   - **NODE_Train** folder:
-     - Run ```Ex1_Case1_NODE_Train.py``` (Python) to train the NODE.
-   - **NODE_LMPC_Run** folder:
-     - Run ```main.m``` (MATLAB) to execute the LMPC with the trained NODE.
+**3.4 Case 1**:
+- **NODE_Train** folder: Run ```Ex1_Case1_NODE_Train.py``` (Python) to train the NODE.
+- **NODE_LMPC_Run** folder: Run ```main.m``` (MATLAB) to execute the LMPC with the trained NODE.
 
-- **Case 2** (The procedure is identical to Case 1):
-   - ```Ex1_Case2_NODE_Train.py``` (train NODE in Python)
-   - ```main.m``` (MATLAB LMPC run)
+**3.5 Case 2** (The procedure is identical to Case 1):
+- ```Ex1_Case2_NODE_Train.py``` (train NODE in Python)
+- ```main.m``` (MATLAB LMPC run)
 
 ## Example 2: Manipulator Robot
 This example handles a manipulator robot with external torque, again considering two time-varying parameter trajectories.
