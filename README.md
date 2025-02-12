@@ -73,40 +73,28 @@ This example addresses a tracking control problem for a wheeled mobile robot wit
 - **NODE_Train** folder: Run ```Ex1_Case1_NODE_Train.py``` (Python) to train the NODE.
 - **NODE_LMPC_Run** folder: Run ```main.m``` (MATLAB) to execute the LMPC with the trained NODE.
 
-**3.5 Case 2** (The procedure is identical to Case 1):
-- ```Ex1_Case2_NODE_Train.py``` (train NODE in Python)
-- ```main.m``` (MATLAB LMPC run)
+**3.5 Case 2** (The procedure is identical to Case 1)
 
 ## Example 2: Manipulator Robot
 This example handles a manipulator robot with external torque, again considering two time-varying parameter trajectories.
 
-- Case 1:
+**3.6 Case 1**:
+- **NODE_Train** folder: Run ```Ex2_Case1_NODE_Train.py``` (Python) to train the NODE.
+- **NODE_LMPC_Run** folder: Run ```main.m``` (MATLAB) to execute the LMPC with the trained NODE.
+- **IterativeLMPC_Run** folder: Run ```main.m``` to compare with the Iterative LMPC proposed in [1].
+- **Comparison_Results** folder: Run ```main.m``` to compare both methods (NODE-LMPC vs. Iterative LMPC).
 
-   - **NODE_Train** folder:
-     - Run ```Ex2_Case1_NODE_Train.py``` (Python) to train the NODE.
-   - **NODE_LMPC_Run** folder:
-     - Run ```main.m``` (MATLAB) to execute the LMPC with the trained NODE.
-   - **IterativeLMPC_Run** folder:
-     - Run ```main.m``` to compare with the Iterative LMPC proposed in [1].
-   - **Comparison_Results** folder:
-     - Run ```main.m``` to compare both methods (NODE-LMPC vs. Iterative LMPC).
-
-- Case 2:
-
-   - **NODE_Train** folder:
-     - ```Run Ex2_Case2_NODE_Train.py``` (Python) to train the NODE.
-   - **NODE_LMPC_Run** folder:
-     - Run ```main.m``` (MATLAB) for the LMPC.
-   - **TDMPC_Train** folder:
-     - Train the agent (Temporal Difference MPC proposed in [2]) by calling
+**3.7 Case 2**:
+- **NODE_Train** folder: ```Run Ex2_Case2_NODE_Train.py``` (Python) to train the NODE.
+- **NODE_LMPC_Run** folder: Run ```main.m``` (MATLAB) for the LMPC.
+- **TDMPC_Train** folder: Train the agent (Temporal Difference MPC proposed in [2]) by calling
 ```
 bash
 
 python src/train.py task=mp-custom
 ```
-     - After training, run ```Performance_test_custom_env.py``` to evaluate the agent’s performance.
-   - **Comparison_Results** folder:
-     - Run main.m to compare the proposed LMPC with TDMPC.
+After training, run ```Performance_test_custom_env.py``` to evaluate the agent’s performance.
+- **Comparison_Results** folder: Run main.m to compare the proposed LMPC with TDMPC.
 
 ## 4. References
 [1] U. Rosolia and F. Borrelli, "Learning Model Predictive Control for Iterative Tasks. A Data-Driven Control Framework," in IEEE Transactions on Automatic Control, vol. 63, no. 7, pp. 1883-1896, July 2018, doi: 10.1109/TAC.2017.2753460.
