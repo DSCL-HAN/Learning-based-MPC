@@ -4,8 +4,8 @@
 ----
 
 Original PyTorch implementation of **Learning-based MPC (LMPC)** by
-
-[Seungyong Han](https://sites.google.com/view/jbnu-dscl), [Xuyang Guo]\*, [Suneel Kumar Kommuri]\*
+https://scholar.google.com/citations?user=JZT4bIYAAAAJ&hl=ko
+[Seungyong Han](https://sites.google.com/view/jbnu-dscl), [Xuyang Guo]([https://sites.google.com/view/jbnu-dscl](https://ieeexplore.ieee.org/author/37089890974)), [Suneel Kumar Kommuri](https://scholar.google.com/citations?user=JZT4bIYAAAAJ&hl=ko)
 
 
 <!--<p align="center">
