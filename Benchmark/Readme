@@ -1,5 +1,4 @@
-2025.02.04
-1. NODE_benchmark.py는 Neural ODE 학습을 위한 코드가 작성되어 있음
+12. Feb. 2025
+1. RNN_NODE_Train&Prediction.py contains code for training a Neural ODE and testing its performance.
 
-2. main_benchmark.py를 실행하면 Neural ODE와 RNN을 학습해서 Prediction한 것을 비교함
-*Neural ODE 데이터를 save하는 것과 load하는 것 주의할 것
+2. Pay close attention to the comment lines when saving and loading the Neural ODE data to avoid unintended behavior.
