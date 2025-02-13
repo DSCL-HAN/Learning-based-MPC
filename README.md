@@ -100,7 +100,7 @@ After training, run ```Performance_test_custom_env.py``` to evaluate the agent�
 # 4. References
 [1] U. Rosolia and F. Borrelli, "Learning Model Predictive Control for Iterative Tasks. A Data-Driven Control Framework," in IEEE Transactions on Automatic Control, vol. 63, no. 7, pp. 1883-1896, July 2018, [doi: 10.1109/TAC.2017.2753460](https://ieeexplore.ieee.org/abstract/document/8039204).
 
-[2] N. Hansen, H. Su, and X. Wang, “Temporal difference learning for model predictive control,” in ICML, 2022, doi: https://arxiv.org/abs/2203.04955.
+[2] N. Hansen, H. Su, and X. Wang, “Temporal difference learning for model predictive control,” in ICML, 2022, [doi: https://arxiv.org/abs/2203.04955](https://arxiv.org/abs/2203.04955).
 
 # 5. License & Acknowledgements
 
