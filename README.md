@@ -76,7 +76,7 @@ This example addresses a tracking control problem for a wheeled mobile robot wit
 **3.5 Case 2**
 - The procedure is identical to Case 1.
 
-## Example 2: Manipulator Robot
+## Example 2: Manipulator Robot Control System
 This example handles a manipulator robot with external torque, again considering two time-varying parameter trajectories.
 
 **3.6 Case 1**:
