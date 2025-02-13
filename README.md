@@ -107,6 +107,6 @@ After training, run ```Performance_test_custom_env.py``` to evaluate the agentâ€
 [MuJoCo](https://github.com/deepmind/mujoco) and [DeepMind Control Suite](https://github.com/deepmind/dm_control) are licensed under the Apache 2.0 license. We thank the [DrQv2](https://github.com/facebookresearch/drqv2) authors for their implementation of DMControl wrappers.
 
 ## Contact
- - If you have questions or suggestions, please reach out via email [hansy@jbnu.ac.kr](hansy@jbnu.ac.kr).
+ - If you have questions or suggestions, please reach out via email [hansy@jbnu.ac.kr](mailto: hansy@jbnu.ac.kr).
 
 
