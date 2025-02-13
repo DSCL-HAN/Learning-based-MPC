@@ -6,25 +6,8 @@
 
 Original PyTorch implementation of **Learning-based MPC (LMPC)** by [Seungyong Han](https://sites.google.com/view/jbnu-dscl), [Xuyang Guo](https://ieeexplore.ieee.org/author/37089890974), [Suneel Kumar Kommuri](https://scholar.google.com/citations?user=JZT4bIYAAAAJ&hl=ko)
 
-
-<p align="center" style="display: flex; justify-content: center; gap: 20px;">
-  <figure style="text-align: center;">
-    <img src="Figures/03_Ex1_Case1_Leader_Follower_Trajectory.jpg" width="250" />
-    <figcaption><b>Benchmark</b></figcaption>
-  </figure>
-  <figure style="text-align: center;">
-    <img src="Figures/12_Ex2_Case1_NODE_MPC_ILMPC_State.jpg" width="250" />
-    <figcaption><b>Example 1</b></figcaption>
-  </figure>
-  <figure style="text-align: center;">
-    <img src="Figures/19_Ex2_Case2_NODE_MPC_TDMPC_State.jpg" width="250" />
-    <figcaption><b>Example 2</b></figcaption>
-  </figure>
-</p>
-
 <p align="center">
   <img src="Figures/03_Ex1_Case1_Leader_Follower_Trajectory.jpg" width="250" />
-  <figcaption><b>Benchmark</b></figcaption>
   <img src="Figures/12_Ex2_Case1_NODE_MPC_ILMPC_State.jpg" width="250" />
   <img src="Figures/19_Ex2_Case2_NODE_MPC_TDMPC_State.jpg" width="250" />
 </p>
