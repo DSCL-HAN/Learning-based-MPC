@@ -51,7 +51,7 @@ Run ```main.m``` from the MATLAB command window or script editor.
 # 3. Instructions
 Below is a step-by-step guide to each folder and how to run the corresponding scripts.
 
-## Benchmark
+## Benchmark Problem
 **3.1 Goal**: Compare the training performance of a Recurrent Neural Network (RNN) and a NODE using a spiral trajectory benchmark.
 
 **3.2 Command**:
