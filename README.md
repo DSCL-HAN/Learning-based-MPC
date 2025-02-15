@@ -34,6 +34,7 @@ Clone the repository:
 bash
 
 git clone https://github.com/seungyong-han/Learning-based-MPC.git
+# This link will be publicly accessible once the paper is accepted.
 ```
 
 ## Install Python dependencies (e.g., via ```pip```):
