@@ -15,7 +15,7 @@ class TOLD(nn.Module):
 		self._reward = h.mlp(cfg.latent_dim+cfg.action_dim, cfg.mlp_dim, 1)
 		self._pi = h.mlp(cfg.latent_dim, cfg.mlp_dim, cfg.action_dim)
 		self._Q1, self._Q2 = h.q(cfg), h.q(cfg)
-		self.apply(h.orthogonal_init) # 네트워크 초기화, orthogona_init은 h의 submodule들(enc, mlp...)의 파라미터를 초기화함
+		self.apply(h.orthogonal_init) 
 		for m in [self._reward, self._Q1, self._Q2]:
 			m[-1].weight.data.fill_(0)
 			m[-1].bias.data.fill_(0)
