@@ -34,7 +34,7 @@ grid on
 h4 = legend('$||f(x(t),u(t),z(t))-f(\hat{x}(t),\hat{u}(t),\hat{z}(t)||$', '$\lambda_{f}||x(t)-\hat{x}(t)||+f_{max}$', 'FontSize', 15);
 set(h4, 'Interpreter','latex');
 box on
-0.035-0.03-1*(1*0.1+0.005)*(0.1*exp(0.1))
+0.03-0.02-1*(1*0.02+0.005)*(0.1*exp(0.05))
 
 %% Trajectories of xT P x under the ultimate boundedness
 for i = 1:sample_size-1
