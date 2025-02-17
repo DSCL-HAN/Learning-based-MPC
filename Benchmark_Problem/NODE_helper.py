@@ -289,12 +289,7 @@ def conduct_experiment(ode_true, ode_trained, n_steps, name, plot_freq, Tf, n_po
     ax_traj.grid(True)
     ax_traj.legend()
 
-    for i in range(n_steps):
-        # obs_, ts_ = create_batch()
-        # obs_ = obs_.to(z0).to(device=device, dtype=data_type)
-        # z_ = ode_trained(obs_[0], ts_, return_whole_sequence=True)
-        # loss = F.mse_loss(z_, obs_.detach())
-        
+    for i in range(n_steps):       
         obs_, ts_ = create_batch()
         loss_sum = 0.0
         for j in range(len(obs_)-1):
