@@ -330,16 +330,18 @@ def conduct_experiment(ode_true, ode_trained, n_steps, name, plot_freq, Tf, n_po
 
     for i in range(n_steps):
         loss_sum = 0.0
-        for j in range(len(obs)-1):
-            z0_j = obs[j]       
-            t0_j = times[j]         
-            t1_j = times[j+1]       
+        obs_, ts_ = create_batch()
+        
+        for j in range(len(obs_)-1):
+            z0_j = obs_[j]       
+            t0_j = ts_[j]         
+            t1_j = ts_[j+1]       
 
             z1_pred = ode_solve(z0_j, t0_j, t1_j, f = ode_trained.func) 
-            z1_true = obs[j+1]   
+            z1_true = obs_[j+1]   
             loss_sum += F.mse_loss(z1_pred, z1_true)
 
-        loss = loss_sum / (len(obs)-1)
+        loss = loss_sum / (len(obs_)-1)
         loss_list_NODE.append(loss.item())
         p = ode_trained.parameters()
         for p in ode_trained.parameters():
