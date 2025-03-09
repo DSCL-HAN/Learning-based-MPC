@@ -1,6 +1,9 @@
 %% Example 1 - Case 1 - Neural ODE based LMPC
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Copyright (C) 2025 Seungyong Han, Jeonbuk National University
+% Copyright (C)
+% Authors: Seungyong Han <hansy@jbnu.ac.kr>
+% 
+% Date: March, 1, 2025
 %
 % This code is the intellectual property of Seungyong Han
 % at Jeonbuk National University. Users are granted permission 
