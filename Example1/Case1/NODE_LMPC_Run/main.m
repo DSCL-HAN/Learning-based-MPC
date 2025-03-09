@@ -2,11 +2,11 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Copyright (C) 2025 Seungyong Han, Jeonbuk National University
 %
-% This software/code is the intellectual property of Seungyong Han
-% at Jeonbuk National University. It is provided "as is," without any 
-% warranty of any kind. Users are granted permission to use, copy, modify, 
-% and distribute this code for academic or research purposes, provided 
-% that this copyright notice is retained in all copies or derivative works.
+% This code is the intellectual property of Seungyong Han
+% at Jeonbuk National University. Users are granted permission 
+% to use, copy, modify, and distribute this code for academic or 
+% research purposes, provided that this copyright notice is retained 
+% in all copies or derivative works.
 %
 % By using this code, you agree that any resulting publications or 
 % presentations will acknowledge its origin.
