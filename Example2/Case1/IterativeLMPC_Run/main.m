@@ -4,21 +4,6 @@
 % "Learning Model Predictive Control for Iterative Tasks. A Data-Driven Control Framework," 
 % in IEEE Transactions on Automatic Control, vol. 63, no. 7, pp. 1883-1896, July 2018
 %
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Copyright (C)
-% Authors: Seungyong Han <hansy@jbnu.ac.kr>
-% 
-% Date: March, 1, 2025
-%
-% This software/code is the intellectual property of Seungyong Han
-% at Jeonbuk National University. It is provided "as is," without any 
-% warranty of any kind. Users are granted permission to use, copy, modify, 
-% and distribute this code for academic or research purposes, provided 
-% that this copyright notice is retained in all copies or derivative works.
-%
-% By using this code, you agree that any resulting publications or 
-% presentations will acknowledge its origin.
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 clc
 clear all
 close all
