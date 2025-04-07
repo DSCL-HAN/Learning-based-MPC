@@ -1,5 +1,5 @@
 # Revision Manuscript No.: ISATRANS-D-24-02658
-<!--Learning-based MPC of Sampled-data Systems with Partially Unknown Dynamics -->.
+<!--Learning-based MPC of Sampled-data Systems with Partially Unknown Dynamics -->
 
 
 
